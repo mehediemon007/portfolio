@@ -1,19 +1,28 @@
 @import "tailwindcss";
 
 :root {
-    --background: #ffffff;
+    --background: #111;
     --foreground: #171717;
+    --text-light: #e9e9f1;
 }
 
 @theme inline {
     --color-background: var(--background);
     --color-foreground: var(--foreground);
-    --font-sync : var(--font-sync)
+    --font-sync : var(--font-sync);
+    --color-gray-100: var(--text-light);
 }
 
 body {
     background: var(--background);
     color: var(--foreground);
     font-family: var(--font-sync) sans-serif;
-  
+}
+
+.sidebar-container {
+    @apply fixed top-12 left-20 w-[400px];
+}
+
+.profile-section{
+    @apply w-full h-[830px] p-12 bg-[#161616] border border-[#303033] rounded-[4xl];
 }
