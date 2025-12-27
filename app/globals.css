@@ -26,3 +26,61 @@ body {
 .profile-section{
     @apply w-full h-[830px] p-12 bg-[#161616] border border-[#303033] rounded-[4xl];
 }
+
+.btn {
+    @apply relative inline-flex items-center justify-center p-0 bg-transparent border-0 outline-none cursor-pointer select-none no-underline
+}
+
+.btn-default {
+    @apply w-auto h-12 text-lg font-bold rounded-md px-8;
+}
+
+.btn-hover {
+    @apply
+    relative
+    before:content-['']
+    before:absolute
+    before:top-0
+    before:left-0
+    before:w-full
+    before:h-full
+    before:block
+    before:rounded-[var(--_radius-m)]
+    before:will-change-transform
+    before:scale-100
+    before:transition-transform
+    before:duration-300
+    before:ease-[var(--_animbezier)]
+    before:bg-gradient-to-br
+    before:from-[var(--accent)]
+    before:to-[var(--secondary)];
+}
+
+.btn-hover-accent::before {
+    @apply
+    bg-gradient-to-br
+    from-[var(--accent)]
+    to-[var(--secondary)];
+}
+
+.btn-hover-accent i,
+.btn-hover-accent span {
+  @apply
+    [text-shadow:0_0_var(--t-opp-bright),0_5rem_var(--t-opp-bright)];
+}
+
+.btn-hover i,
+.btn-hover span {
+  @apply
+    text-transparent
+    leading-[5rem]
+    transition-all
+    duration-300
+    block
+    overflow-hidden;
+}
+
+.btn-default i,
+.btn-default span {
+  @apply relative;
+}

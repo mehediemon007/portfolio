@@ -27,7 +27,7 @@ const Sidebar = () => {
                     <a href="#" className='inline-flex justify-center items-center w-11 h-11 text-gray-100 bg-[#161616] border border-[#4b4b51] rounded-[20px]'><FaXTwitter/></a>
                     <a href="mailto:mehediemon7@gmail.com" className='inline-flex justify-center items-center w-11 h-11 text-gray-100 bg-[#161616] border border-[#4b4b51] rounded-[20px]'><FaEnvelope/></a>
                 </div>
-                <Link href='#contact'>Let&apos;s Work Together!</Link>
+                <Link href='#contact' className='btn btn-default btn-hover btn-hover-accent'>Let&apos;s Work Together!</Link>
             </div>
         </div>
     )
