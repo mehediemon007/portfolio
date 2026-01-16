@@ -19,9 +19,11 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
     return (
         <html lang="en">
             <body className={`${sync.variable} antialiased`}>
-                <Sidebar/>
                 <Header />
-                {children}
+                <Sidebar/>
+                <main className="main__content">
+                    {children}
+                </main>
             </body>
         </html>
     );
