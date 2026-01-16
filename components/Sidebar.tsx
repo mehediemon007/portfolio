@@ -9,23 +9,23 @@ const Sidebar = () => {
         <div className='sidebar-container'>
             <div className="profile-section">
                 <div>
-                    <p className='text-[1.8rem] font-bold font-sync text-gray-100'>Mehedi Hasan Emon</p>
+                    <p className='text-[1.8rem] font-bold font-sync text-gray-300'>Mehedi Hasan Emon</p>
                     <Image src="/image.webp" alt="Emon" width={240} height={240} />
                 </div>
-                <div className='text-gray-100 font-sync'>
+                <div className='text-gray-300 font-sync'>
                     <p className='text-[13px]'>Specialization:</p>
                     <h6 className='text-base font-bold'>Frontend Developer</h6>
                 </div>
-                <div className='text-gray-100 font-sync'>
+                <div className='text-gray-300 font-sync'>
                     <p className='text-[13px]'>Based in:</p>
                     <h6 className='text-base font-bold'>Dhaka, Bangladesh</h6>
                 </div>
                 <div className='flex items-center gap-2'>
-                    <a href="#" className='inline-flex justify-center items-center w-11 h-11 text-gray-100 bg-[#161616] border border-[#4b4b51] rounded-[20px]'><FaGithub/></a>
-                    <a href="#" className='inline-flex justify-center items-center w-11 h-11 text-gray-100 bg-[#161616] border border-[#4b4b51] rounded-[20px]'><FaLinkedin/></a>
-                    <a href="#" className='inline-flex justify-center items-center w-11 h-11 text-gray-100 bg-[#161616] border border-[#4b4b51] rounded-[20px]'><FaFacebook/></a>
-                    <a href="#" className='inline-flex justify-center items-center w-11 h-11 text-gray-100 bg-[#161616] border border-[#4b4b51] rounded-[20px]'><FaXTwitter/></a>
-                    <a href="mailto:mehediemon7@gmail.com" className='inline-flex justify-center items-center w-11 h-11 text-gray-100 bg-[#161616] border border-[#4b4b51] rounded-[20px]'><FaEnvelope/></a>
+                    <a href="#" className='inline-flex justify-center items-center w-11 h-11 text-gray-300 bg-[#161616] border border-[#4b4b51] rounded-2.5xl'><FaGithub/></a>
+                    <a href="#" className='inline-flex justify-center items-center w-11 h-11 text-gray-300 bg-[#161616] border border-[#4b4b51] rounded-2.5xl'><FaLinkedin/></a>
+                    <a href="#" className='inline-flex justify-center items-center w-11 h-11 text-gray-300 bg-[#161616] border border-[#4b4b51] rounded-2.5xl'><FaFacebook/></a>
+                    <a href="#" className='inline-flex justify-center items-center w-11 h-11 text-gray-300 bg-[#161616] border border-[#4b4b51] rounded-2.5xl'><FaXTwitter/></a>
+                    <a href="mailto:mehediemon7@gmail.com" className='inline-flex justify-center items-center w-11 h-11 text-gray-300 bg-[#161616] border border-[#4b4b51] rounded-2.5xl'><FaEnvelope/></a>
                 </div>
                 <Link href='#contact' className='btn btn-default btn-hover btn-hover-accent'>Let&apos;s Work Together!</Link>
             </div>

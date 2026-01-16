@@ -4,19 +4,34 @@
     --background: #111;
     --foreground: #171717;
     --text-light: #e9e9f1;
+    --text-disable: #8b8a91;
+    /* --font-sync: "Syne", sans-serif; */
+    --stroke-controls-neutral: #ffffff4d;
 }
 
 @theme inline {
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-2xl: 1400px;
+    --breakpoint-3xl: 1600px;
+    
     --color-background: var(--background);
     --color-foreground: var(--foreground);
-    --font-sync : var(--font-sync);
-    --color-gray-100: var(--text-light);
+    --color-gray-300: var(--text-light);
+    --color-gray-500: var(--text-disable);
+    
+    /* Font Utilities */
+    --font-sync: var(--font-sync);
+    --font-inherit: inherit;
+
+    /* Border */
+    --radius-2_5xl: 20px;
 }
 
 body {
     background: var(--background);
     color: var(--foreground);
-    font-family: var(--font-sync) sans-serif;
+    font-family: var(--font-sync), sans-serif;
 }
 
 .sidebar-container {
@@ -27,60 +42,30 @@ body {
     @apply w-full h-[830px] p-12 bg-[#161616] border border-[#303033] rounded-[4xl];
 }
 
-.btn {
-    @apply relative inline-flex items-center justify-center p-0 bg-transparent border-0 outline-none cursor-pointer select-none no-underline
+@layer components {
+
+    .btn {
+        @apply relative inline-flex items-center justify-center gap-1.5 p-0 font-inherit cursor-pointer select-none bg-transparent border-0 outline-none no-underline;
+    }
+
+    .header {
+        @apply fixed lg:top-7 2xl:top-12 bottom-4 md:bottom-7 lg:bottom-auto left-1/2 lg:left-auto lg:right-0 right-auto w-auto lg:w-[calc(100%-330px)] xl:w-[calc(100%-360px)] 2xl:w-[calc(100%-400px)] 3xl:w-[calc(100%-500px)] h-11 lg:h-12 3xl:h-14 bg-[rgba(0,0,0,0.03)] lg:bg-transparent backdrop-blur-[10px] lg:backdrop-blur-none rounded-2.5xl lg:px-7 xl:pr-14 2xl:pr-20 3xl:pr-24 2xl:pl-12 translate-1/2 lg:translate-0 z-10
+    }
+
+    .menu__link {
+        @apply w-auto h-12 3xl:h-16 text-base xl:text-lg 3xl:text-xl text-gray-500 font-bold font-sync bg-transparent backdrop-blur-3xl border border-transparent rounded-3xl px-5 transition duration-300 ease-in-out hover:text-gray-300
+    }
+
+    .menu__link.active {
+        @apply border-(--stroke-controls-neutral) text-gray-300 backdrop-blur-[6px]
+    }
+
+    .sidebar-container {
+        @apply fixed top-12 left-20 w-[400px];
+    }
+
+    .profile-section{
+        @apply w-full h-[830px] p-12 bg-[#161616] border border-[#303033] rounded-[4xl];
+    }
 }
 
-.btn-default {
-    @apply w-auto h-12 text-lg font-bold rounded-md px-8;
-}
-
-.btn-hover {
-    @apply
-    relative
-    before:content-['']
-    before:absolute
-    before:top-0
-    before:left-0
-    before:w-full
-    before:h-full
-    before:block
-    before:rounded-[var(--_radius-m)]
-    before:will-change-transform
-    before:scale-100
-    before:transition-transform
-    before:duration-300
-    before:ease-[var(--_animbezier)]
-    before:bg-gradient-to-br
-    before:from-[var(--accent)]
-    before:to-[var(--secondary)];
-}
-
-.btn-hover-accent::before {
-    @apply
-    bg-gradient-to-br
-    from-[var(--accent)]
-    to-[var(--secondary)];
-}
-
-.btn-hover-accent i,
-.btn-hover-accent span {
-  @apply
-    [text-shadow:0_0_var(--t-opp-bright),0_5rem_var(--t-opp-bright)];
-}
-
-.btn-hover i,
-.btn-hover span {
-  @apply
-    text-transparent
-    leading-[5rem]
-    transition-all
-    duration-300
-    block
-    overflow-hidden;
-}
-
-.btn-default i,
-.btn-default span {
-  @apply relative;
-}
