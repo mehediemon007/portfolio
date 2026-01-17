@@ -32,7 +32,9 @@ const Sidebar = () => {
                         <a href="#" className='social__link btn'><FaXTwitter/></a>
                         <a href="mailto:mehediemon7@gmail.com" className='social__link btn'><FaEnvelope/></a>
                     </div>
-                    <Link href='#contact' className='btn btn-default btn-hover btn-hover-accent'>Let&apos;s Work Together!</Link>
+                    <Link href='#contact' className='btn btn-default btn-hover btn-hover-accent'>
+                        <span>Let&apos;s Work Together!</span>
+                    </Link>
                 </div>
             </div>
         </div>

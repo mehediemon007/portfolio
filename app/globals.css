@@ -8,11 +8,15 @@
     --text-light: #e9e9f1;
     --text-medium: #c7c6d3;
     --text-disable: #8b8a91;
+    --text-opp-light: #121319;
     --base-tint: #161616;
     /* --font-sync: "Syne", sans-serif; */
     --stroke-controls-neutral: #ffffff4d;
     --stroke-elements: #303033;
     --stroke-controls:  #4b4b51;
+
+    --_radius-m : 2.6rem;
+    --_animbezier: cubic-bezier(.23,.65,.74,1.09);
 }
 
 @theme {
@@ -61,7 +65,7 @@
     }
 
     h1 {
-        @apply text-[3.8rem]/[1.2] md:text-[5rem] xl:text-8xl 2xl:text-[7rem] 3xl:text-9xl font-bold font-sync text-transparent [-webkit-text-fill-color:transparent] bg-linear-accent bg-clip-text
+        @apply text-[3.8rem] md:text-[5rem] xl:text-8xl 2xl:text-[7rem] 3xl:text-9xl leading-tight font-bold font-sync text-transparent [-webkit-text-fill-color:transparent] bg-linear-accent bg-clip-text
     }
 
     h2 {
@@ -81,6 +85,51 @@
 
     .btn {
         @apply relative inline-flex items-center justify-center gap-1.5 p-0 font-inherit cursor-pointer select-none bg-transparent border-0 outline-none no-underline;
+    }
+
+    .btn-default {
+        @apply w-auto h-20 3xl:h-24 text-[1.6rem]/[5rem] 3xl:text-[2rem]/[6rem] font-bold font-sync rounded-(--_radius-m) px-8
+    }
+
+    .mobile-vertical {
+        @apply flex w-full mb-4
+    }
+
+    .btn-hover-accent {
+        @apply before:bg-linear-accent
+    }
+
+    .btn-hover-accent-mobile {
+        @apply before:bg-linear-accent lg:before:bg-none lg:before:bg-background lg:before:border lg:before:border-stroke-controls
+    }
+
+    .btn-hover-outline-mobile {
+        @apply before:bg-transparent before:border lg:before:border-none before:border-stroke-controls lg:before:border-transparent
+    }
+
+    .btn-default i, 
+    .btn-default span {
+        @apply relative
+    }
+
+    .btn-hover i, 
+    .btn-hover span {
+        @apply block text-transparent leading-20 3xl:leading-24 transition-all duration-300 overflow-hidden
+    }
+ 
+    .btn-hover-accent i, 
+    .btn-hover-accent span {
+        @apply text-shadow-[0_0_var(--text-opp-light),0_5rem_var(--text-opp-light)] 3xl:text-shadow-[0_0_var(--text-opp-light),0_6rem_var(--text-opp-light)]
+    }
+
+    .btn-hover-accent-mobile i, 
+    .btn-hover-accent-mobile span {
+        @apply text-[#121319] lg:text-gray-300 xl:text-transparent text-shadow-[0_0_var(--text-light),0_5rem_var(--text-light)] 3xl:text-shadow-[0_0_var(--text-light),0_6rem_var(--text-light)]
+    }
+
+    .btn-hover-outline-mobile i, 
+    .btn-hover-outline-mobile span {
+        @apply text-gray-300 lg:text-gray-600 xl:text-transparent text-shadow-[0_0_var(--text-disable),0_5rem_var(--text-disable)] 3xl:text-shadow-[0_0_var(--text-disable),0_6rem_var(--text-disable)]
     }
 
     /* ----- Header ------*/
@@ -140,3 +189,49 @@
     /* Hero Section */
 }
 
+@layer utilities {
+
+    .btn-default i {
+        @apply text-[1.8rem] 3xl:text-[2.2rem] ml-[.6rem]
+    }
+
+    .btn-hover::before {
+        content: "";
+        @apply absolute inset-0 block w-full h-full rounded-(--_radius-m) will-change-transform scale-100 transition-transform duration-300;
+        transition-timing-function: var(--_animbezier);
+    }
+
+    .no-touch .btn-hover:hover::before {
+        @apply scale-[1.03];
+    }
+
+    .no-touch .btn-hover-accent:hover i, 
+    .no-touch .btn-hover-accent:hover span {
+        @apply text-shadow-[0_-5rem_var(--text-opp-light),0_0_var(--text-opp-light)] 3xl:text-shadow-[0_-6rem_var(--text-opp-light),0_0_var(--text-opp-light)];
+    }
+
+    .no-touch .btn-hover-accent-mobile:hover i, 
+    .no-touch .btn-hover-accent-mobile:hover span {
+        @apply text-shadow-[0_-5rem_var(--text-light),0_0_var(--text-light)] 3xl:text-shadow-[0_-6rem_var(--text-light),0_0_var(--text-light)];
+    }
+
+    .no-touch .btn-hover-outline-mobile:hover i, 
+    .no-touch .btn-hover-outline-mobile:hover span {
+        @apply text-shadow-[0_-5rem_var(--text-light),0_0_var(--text-light)] 3xl:text-shadow-[0_-5rem_var(--text-light),0_0_var(--text-light)]
+    }
+
+    .mobile-vertical:last-child {
+        @apply mb-0
+    }
+
+    @media (min-width: 576px) {
+        .mobile-vertical {
+            @apply inline-flex w-auto mb-0 mr-4
+        }
+
+        .mobile-vertical:last-child {
+            @apply mr-0
+        }
+    }
+    
+}

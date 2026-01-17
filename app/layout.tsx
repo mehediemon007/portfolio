@@ -17,7 +17,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}: Readonly<{children: React.ReactNode;}>) {
     return (
-        <html lang="en">
+        <html lang="en" className="no-touch">
+            <head>
+                <link
+                    rel="stylesheet"
+                    type="text/css"
+                    href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/bold/style.css"
+                />
+            </head>
             <body className={`${sync.variable} antialiased`}>
                 <Header />
                 <Sidebar/>

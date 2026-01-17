@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 
 // *** import icons
-import { LuMessageSquareMore } from "react-icons/lu";
 
 const Header = () => {
     return (
@@ -27,7 +26,10 @@ const Header = () => {
                         </li>
                     </ul>
                 </nav>
-                <Link href={'/'} className='btn'><span>Let&apos;s Talk</span> <LuMessageSquareMore/></Link>
+                <Link href={'/'} className='btn btn-default btn-hover btn-hover-accent'>
+                    <span>Let&apos;s Talk</span>
+                    <i className="ph-bold ph-chat-dots"></i>
+                </Link>
             </div>
         </header>
     )
