@@ -9,7 +9,7 @@ const Header = () => {
         <header className='header'>
             <div className='flex justify-between items-center'>
                 <nav>
-                    <ul className='flex justify-start items-center gap-2.5'>
+                    <ul className='flex justify-start items-center gap-4'>
                         <li>
                             <Link href={'/'} className='menu__link btn active'>Home</Link>
                         </li>
@@ -27,7 +27,7 @@ const Header = () => {
                         </li>
                     </ul>
                 </nav>
-                <Link href={'/'} className='w-11 lg:w-auto h-11 lg:h-12 3xl:h-14 lg:font-bold 3xl:text-xl lg:px-5 3xl:px-6 whitespace-nowrap btn'><span>Let&apos;s Talk</span> <LuMessageSquareMore/></Link>
+                <Link href={'/'} className='btn'><span>Let&apos;s Talk</span> <LuMessageSquareMore/></Link>
             </div>
         </header>
     )
