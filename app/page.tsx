@@ -1,9 +1,9 @@
-import AboutMe from "./_components/AboutMe";
-import Contact from "./_components/Contact";
-import Hero from "./_components/Hero";
-import Portfolio from "./_components/Portfolio";
-import Resume from "./_components/Resume";
-import Testimonial from "./_components/Testimonial";
+import AboutMe from "@/components/AboutMe";
+import Contact from "@/components/Contact";
+import Hero from "@/components/Hero";
+import Portfolio from "@/components/Portfolio";
+import Resume from "@/components/Resume";
+// import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
     return (
@@ -12,7 +12,7 @@ export default function Home() {
             <Portfolio/>
             <AboutMe/>
             <Resume/>
-            <Testimonial/>
+            {/* <Testimonial/> */}
             <Contact/>
         </div>
     );

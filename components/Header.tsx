@@ -13,16 +13,16 @@ const Header = () => {
                             <Link href={'/'} className='menu__link btn active'>Home</Link>
                         </li>
                         <li>
-                            <Link href={'/'} className='menu__link btn'>Portfolio</Link>
+                            <Link href={'/#portfolio'} className='menu__link btn'>Portfolio</Link>
                         </li>
                         <li>
-                            <Link href={'/'} className='menu__link btn'>About Me</Link>
+                            <Link href={'/#about-me'} className='menu__link btn'>About Me</Link>
                         </li>
                         <li>
-                            <Link href={'/'} className='menu__link btn'>Resume</Link>
+                            <Link href={'/#resume'} className='menu__link btn'>Resume</Link>
                         </li>
                         <li>
-                            <Link href={'/'} className='menu__link btn'>Contact</Link>
+                            <Link href={'/#contact'} className='menu__link btn'>Contact</Link>
                         </li>
                     </ul>
                 </nav>
