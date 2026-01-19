@@ -289,6 +289,18 @@
 
 @layer utilities {
 
+    body::-webkit-scrollbar {
+        @apply w-2 h-2
+    }
+
+    body::-webkit-scrollbar-track {
+        @apply bg-black
+    }
+
+    body::-webkit-scrollbar-thumb {
+        @apply rounded bg-[linear-gradient(to_bottom,var(--color-accent)_0%,var(--color-secondary)_80%)];
+    }
+
     .btn-default i {
         @apply text-[1.8rem] 3xl:text-[2.2rem] ml-[.6rem]
     }
