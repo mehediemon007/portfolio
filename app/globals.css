@@ -147,9 +147,13 @@
         @apply relative
     }
 
+    .btn-default i {
+        @apply text-[1.8rem] 3xl:text-[2.2rem] ml-[.6rem]
+    }
+
     .btn-hover i, 
     .btn-hover span {
-        @apply block text-transparent leading-20 3xl:leading-24 transition-all duration-300 overflow-hidden
+        @apply block text-transparent leading-20! 3xl:leading-24! transition-all duration-300 overflow-hidden
     }
  
     .btn-hover-accent i, 
@@ -170,7 +174,7 @@
     /* ----- Header ------*/
 
     .header {
-        @apply fixed lg:top-12 2xl:top-20 bottom-6 md:bottom-12 lg:bottom-auto left-1/2 lg:left-auto lg:right-0 right-auto w-auto lg:w-[calc(100%-330px)] xl:w-[calc(100%-360px)] 2xl:w-[calc(100%-480px)] 3xl:w-[calc(100%-500px)] h-[4.4rem] lg:h-20 3xl:h-24 bg-[rgba(0,0,0,0.03)] lg:bg-transparent backdrop-blur-[10px] lg:backdrop-blur-none rounded-4xl lg:px-12 xl:pr-24 2xl:pr-32 3xl:pr-40 2xl:pl-20 translate-1/2 lg:translate-0 z-10
+        @apply fixed lg:top-12 2xl:top-20 bottom-6 md:bottom-12 lg:bottom-auto left-1/2 lg:left-auto lg:right-0 right-auto w-auto lg:w-[calc(100%-330px)] xl:w-[calc(100%-360px)] 2xl:w-[calc(100%-480px)] 3xl:w-[calc(100%-500px)] h-[4.4rem] lg:h-20 3xl:h-24 bg-[rgba(0,0,0,0.03)] lg:bg-transparent backdrop-blur-[10px] lg:backdrop-blur-none rounded-4xl lg:px-12 xl:pr-24 2xl:pr-32 3xl:pr-40 2xl:pl-20 -translate-x-1/2 lg:translate-0 z-10
     }
 
     .menu__link {
@@ -178,7 +182,23 @@
     }
 
     .menu__link.active {
-        @apply border-stroke-neutral text-gray-300 backdrop-blur-[6px]
+        @apply text-(--text-opp-light) lg:text-gray-300 bg-[#fafafa] lg:bg-transparent lg:backdrop-blur-[6px] lg:border-stroke-neutral
+    }
+
+    .menu__link span {
+        @apply hidden xl:inline
+    }
+
+    .menu__link i {
+        @apply lg:relative xl:hidden
+    }
+
+    .header__trigger{
+        @apply w-[4.4rem] lg:w-auto h-[4.4rem] lg:h-20 3xl:h-24 text-[1.6rem] lg:text-[1.6rem]/[5rem] 3xl:text-[2rem]/[6rem] lg:font-bold px-0 lg:px-8 ml-4
+    }
+
+    .header__trigger i {
+        @apply ml-0 lg:ml-[.6rem]
     }
 
     /* ----- Sidebar ------*/
@@ -301,14 +321,14 @@
         @apply rounded bg-[linear-gradient(to_bottom,var(--color-accent)_0%,var(--color-secondary)_80%)];
     }
 
-    .btn-default i {
-        @apply text-[1.8rem] 3xl:text-[2.2rem] ml-[.6rem]
-    }
-
     .btn-hover::before {
         content: "";
         @apply absolute inset-0 block w-full h-full rounded-(--_radius-m) will-change-transform scale-100 transition-transform duration-300;
         transition-timing-function: var(--_animbezier);
+    }
+
+    .header__trigger::before {
+        @apply content-[''] rounded-4xl lg:before:rounded-(--_radius-m)
     }
 
     .no-touch .btn-hover:hover::before {

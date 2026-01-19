@@ -46,32 +46,32 @@ const Contact = () => {
                 <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 px-2 2xl:px-6">
                     <div className="col-span-1 grid-item-s">
                         <div className="socials-cards__card group">
-                            <i className="ph-bold ph-dribbble-logo"></i>
-                            <a className="socials-cards__link" href="https://dribbble.com/" target="_blank" rel="noopener noreferrer"></a>
+                            <i className="ph-bold ph-linkedin-logo"></i>
+                            <a className="socials-cards__link" href="https://www.linkedin.com/in/mehedi-hasan-emon/" target="_blank" rel="noopener noreferrer"></a>
                         </div>
                     </div>
                     <div className="col-span-1 grid-item-s">
                         <div className="socials-cards__card group">
-                            <i className="ph-bold ph-behance-logo"></i>
-                            <a className="socials-cards__link" href="https://www.behance.net/" target="_blank" rel="noopener noreferrer"></a>
+                            <i className="ph-bold ph-facebook-logo"></i>
+                            <a className="socials-cards__link" href="https://www.facebook.com/mehedi.emon.007" target="_blank" rel="noopener noreferrer"></a>
                         </div>
                     </div>
                     <div className="col-span-1 grid-item-s">
                         <div className="socials-cards__card group">
-                            <i className="ph-bold ph-instagram-logo"></i>
-                            <a className="socials-cards__link" href="https://www.behance.net/" target="_blank" rel="noopener noreferrer"></a>
+                            <i className="ph-bold ph-whatsapp-logo"></i>
+                            <a className="socials-cards__link" href="https://wa.me/+8801629795421" target="_blank" rel="noopener noreferrer"></a>
                         </div>
                     </div>
                     <div className="col-span-1 grid-item-s">
                         <div className="socials-cards__card group">
-                            <i className="ph-bold ph-twitch-logo"></i>
-                            <a className="socials-cards__link" href="https://www.behance.net/" target="_blank" rel="noopener noreferrer"></a>
+                            <i className="ph-bold ph-messenger-logo"></i>
+                            <a className="socials-cards__link" href="https://m.me/mehedi.emon.007" target="_blank" rel="noopener noreferrer"></a>
                         </div>
                     </div>
                     <div className="col-span-1 grid-item-s">
                         <div className="socials-cards__card group">
-                            <i className="ph-bold ph-pinterest-logo"></i>
-                            <a className="socials-cards__link" href="https://www.behance.net/" target="_blank" rel="noopener noreferrer"></a>
+                            <i className="ph-bold ph-discord-logo"></i>
+                            <a className="socials-cards__link" href="https://discord.com/users/1289504649795342389" target="_blank" rel="noopener noreferrer"></a>
                         </div>
                     </div>
                 </div>
@@ -92,13 +92,13 @@ const Contact = () => {
                     <div className="col-span-1 mb-[1.7rem] md:mb-0">
                         <p className="text-[1.6rem]/[1.2] font-bold font-sync text-gray-300">Phone</p>
                         <p className="text-[1.6rem]/[1.4] font-normal font-sync text-(--text-muted) lining-nums">
-                            <a className="text-link-bold text-(--text-muted)" href="tel:+8801629795421" target="_blank" rel="noopener noreferrer">+880-1629-795421</a>
+                            <a className="text-link-bold text-(--text-muted)" href="tel:+8801629795421" rel="noopener noreferrer">+880-1629-795421</a>
                         </p>
                     </div>
                     <div className="col-span-1 mb-[1.7rem] md:mb-0">
                         <p className="text-[1.6rem]/[1.2] font-bold font-sync text-gray-300">Email</p>
                         <p className="text-[1.6rem]/[1.4] font-normal font-sync text-(--text-muted) lining-nums">
-                            <a className="text-link-bold text-(--text-muted)" href="mailto:mehediemon7@gmail.com" target="_blank" rel="noopener noreferrer">mehediemon7@gmail.com</a>
+                            <a className="text-link-bold text-(--text-muted)" href="mailto:mehediemon7@gmail.com" rel="noopener noreferrer">mehediemon7@gmail.com</a>
                         </p>
                     </div>
                 </div>

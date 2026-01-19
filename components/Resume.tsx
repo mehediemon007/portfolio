@@ -64,56 +64,116 @@ const Resume = () => {
                 <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 px-2 2xl:px-6">
                     <div className="col-span-1 flex grid-item-s">
                         <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
-                            <Image src='/icon-reactjs.svg' alt='react' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
-                            <h6 className='lining-nums mt-6 leading-none'>ReactJs</h6>
-                        </div>
-                    </div>
-                    <div className="col-span-1 flex grid-item-s">
-                        <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
-                            <Image src='/icon-nextjs.svg' alt='next' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <Image src='/icons/icon-nextjs.svg' alt='next' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
                             <h6 className='lining-nums mt-6 leading-none'>NextJs</h6>
                         </div>
                     </div>
                     <div className="col-span-1 flex grid-item-s">
                         <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
-                            <Image src='/icon-javascript.svg' alt='javascropt' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <Image src='/icons/icon-reactjs.svg' alt='react' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>ReactJs</h6>
+                        </div>
+                    </div>
+                    <div className="col-span-1 flex grid-item-s">
+                        <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
+                            <Image src='/icons/icon-javascript.svg' alt='javascropt' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
                             <h6 className='lining-nums mt-6 leading-none'>Javascript</h6>
                         </div>
                     </div>
                     <div className="col-span-1 flex grid-item-s">
                         <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
-                            <Image src='/icon-html.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <Image src='/icons/icon-html.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
                             <h6 className='lining-nums mt-6 leading-none'>HTML5</h6>
                         </div>
                     </div>
                     <div className="col-span-1 flex grid-item-s">
                         <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
-                            <Image src='/icon-css.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <Image src='/icons/icon-css.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
                             <h6 className='lining-nums mt-6 leading-none'>CSS3</h6>
                         </div>
                     </div>
                     <div className="col-span-1 flex grid-item-s">
                         <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
-                            <Image src='/icon-photoshop.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
-                            <h6 className='lining-nums mt-6 leading-none'>Photoshop</h6>
+                            <Image src='/icons/icon-tailwind.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>Tailwind Css</h6>
                         </div>
                     </div>
                     <div className="col-span-1 flex grid-item-s">
                         <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
-                            <Image src='/icon-photoshop.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
-                            <h6 className='lining-nums mt-6 leading-none'>Photoshop</h6>
+                            <Image src='/icons/icon-bootstrap.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>Bootstrap</h6>
                         </div>
                     </div>
                     <div className="col-span-1 flex grid-item-s">
                         <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
-                            <Image src='/icon-photoshop.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
-                            <h6 className='lining-nums mt-6 leading-none'>Photoshop</h6>
+                            <Image src='/icons/icon-scss.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>SCSS</h6>
                         </div>
                     </div>
                     <div className="col-span-1 flex grid-item-s">
                         <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
-                            <Image src='/icon-photoshop.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
-                            <h6 className='lining-nums mt-6 leading-none'>Photoshop</h6>
+                            <Image src='/icons/icon-redux.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>Redux</h6>
+                        </div>
+                    </div>
+                    <div className="col-span-1 flex grid-item-s">
+                        <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
+                            <Image src='/icons/icon-zod.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>Zod</h6>
+                        </div>
+                    </div>
+                    <div className="col-span-1 flex grid-item-s">
+                        <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
+                            <Image src='/icons/icon-hook-form.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>React Hook Form</h6>
+                        </div>
+                    </div>
+                    <div className="col-span-1 flex grid-item-s">
+                        <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
+                            <Image src='/icons/icon-jest.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>Jest</h6>
+                        </div>
+                    </div>
+                    <div className="col-span-1 flex grid-item-s">
+                        <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
+                            <Image src='/icons/icon-node.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>NodeJs</h6>
+                        </div>
+                    </div>
+                    <div className="col-span-1 flex grid-item-s">
+                        <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
+                            <Image src='/icons/icon-nest.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>NestJs</h6>
+                        </div>
+                    </div>
+                    <div className="col-span-1 flex grid-item-s">
+                        <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
+                            <Image src='/icons/icon-express.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>ExpressJs</h6>
+                        </div>
+                    </div>
+                    <div className="col-span-1 flex grid-item-s">
+                        <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
+                            <Image src='/icons/icon-prisma.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>Prisma</h6>
+                        </div>
+                    </div>
+                    <div className="col-span-1 flex grid-item-s">
+                        <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
+                            <Image src='/icons/icon-typeorm.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>Type ORM</h6>
+                        </div>
+                    </div>
+                    <div className="col-span-1 flex grid-item-s">
+                        <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
+                            <Image src='/icons/icon-postgresql.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>PostgreSQL</h6>
+                        </div>
+                    </div>
+                    <div className="col-span-1 flex grid-item-s">
+                        <div className="relative w-full bg-background border border-stroke rounded-(--_radius-xl) text-center p-12">
+                            <Image src='/icons/icon-mongo.svg' alt='photoshop' width={120} height={90} className='w-auto h-24 md:h-36 xl:h-24 3xl:h-28 mx-auto'/>
+                            <h6 className='lining-nums mt-6 leading-none'>MongoDB</h6>
                         </div>
                     </div>
                 </div>

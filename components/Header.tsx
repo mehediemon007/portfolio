@@ -8,11 +8,11 @@ const Header = () => {
     const [activeSection, setActiveSection] = useState("home");
 
     const menu = [
-        { label: "Home", id: "home" },
-        { label: "Portfolio", id: "portfolio" },
-        { label: "About Me", id: "about-me" },
-        { label: "Resume", id: "resume" },
-        { label: "Contact", id: "contact" },
+        { label: "Home", icon: "ph-house-simple", id: "home" },
+        { label: "Portfolio", icon: "ph-squares-four", id: "portfolio" },
+        { label: "About Me", icon: "ph-user", id: "about-me" },
+        { label: "Resume", icon: "ph-article", id: "resume" },
+        { label: "Contact", icon: "ph-envelope", id: "contact" },
     ];
 
     const handleSetActive = (id: string) => {
@@ -37,7 +37,8 @@ const Header = () => {
                                         activeSection === item.id ? "active" : ""
                                     }`}
                                 >
-                                    {item.label}
+                                    <span>{item.label}</span>
+                                    <i className={`ph-bold ${item.icon}`}></i>
                                 </Link>
                             </li>
                         ))}
@@ -45,11 +46,10 @@ const Header = () => {
                 </nav>
                 <a
                     href="mailto:mehediemon7@gmail.com"
-                    target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-default btn-hover btn-hover-accent"
+                    className="header__trigger btn btn-default btn-hover btn-hover-accent"
                 >
-                    <span>Let&apos;s Talk</span>
+                    <span className="hidden lg:inline">Let&apos;s Talk</span>
                     <i className="ph-bold ph-chat-dots"></i>
                 </a>
             </div>
