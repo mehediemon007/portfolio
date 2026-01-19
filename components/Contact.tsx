@@ -86,7 +86,7 @@ const Contact = () => {
                     <div className="col-span-1 mb-[1.7rem] md:mb-0">
                         <p className="text-[1.6rem]/[1.2] font-bold font-sync text-gray-300">Location</p>
                         <p className="text-[1.6rem]/[1.4] font-normal font-sync text-(--text-muted) lining-nums">
-                            <a className="text-link-bold text-(--text-muted)" href="https://maps.app.goo.gl/xMJXTEUeHkv6kYRQ6" target="_blank" rel="noopener noreferrer">Odesa, Ukraine</a>
+                            <a className="text-link-bold text-(--text-muted)" href="https://maps.app.goo.gl/xMJXTEUeHkv6kYRQ6" target="_blank" rel="noopener noreferrer">Dhaka, Bangladesh</a>
                         </p>
                     </div>
                     <div className="col-span-1 mb-[1.7rem] md:mb-0">
