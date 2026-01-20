@@ -208,7 +208,7 @@
     }
 
     .sidebar__container {
-        @apply relative w-full lg:h-[680px] 2xl:h-[830px] bg-(--base-tint) border border-stroke rounded-[3.6rem] p-12 2xl:p-20
+        @apply relative w-full h-full lg:h-[680px] 2xl:h-[830px] bg-(--base-tint) border border-stroke rounded-[3.6rem] p-12 2xl:p-20
     }
 
     .profile__contents{

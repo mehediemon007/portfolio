@@ -12,7 +12,7 @@ const Sidebar = () => {
                             <p className='text-[2.8rem]/[1.06] 2xl:text-[3.6rem] font-bold font-sync text-gray-300'>Mehedi Hasan Emon</p>
                         </div>
                         <figure className='rounded-5xl mb-[.8rem] overflow-hidden'>
-                            <Image src="/image.webp" alt="Emon" width={300} height={300} />
+                            <Image src="/image.webp" alt="Emon" width={1024} height={1024} />
                         </figure>
                     </div>
                     <div>
