@@ -208,7 +208,7 @@
     }
 
     .sidebar__container {
-        @apply relative w-full h-[830px] bg-(--base-tint) border border-stroke rounded-[3.6rem] p-12 2xl:p-20
+        @apply relative w-full lg:h-[680px] 2xl:h-[830px] bg-(--base-tint) border border-stroke rounded-[3.6rem] p-12 2xl:p-20
     }
 
     .profile__contents{
@@ -217,6 +217,10 @@
 
     .social__link {
         @apply w-[4.4rem] 2xl:w-20 h-[4.4rem] 2xl:h-20 text-[1.8rem] text-gray-300 border border-stroke-controls rounded-4xl 2xl:rounded-[2.2rem]
+    }
+
+    .social__link i {
+        @apply relative block text-[1.8rem]/[4.4rem] text-gray-300 xl:text-transparent xl:text-shadow-[0_0_var(--text-light),0_4.4rem_var(--text-light)] 2xl:text-shadow-[0_0_var(--text-light),0_5rem_var(--text-light)] 2xl:leading-20! transition-all duration-300 overflow-hidden 
     }
 
     /* Main Contents */
@@ -348,6 +352,10 @@
     .no-touch .btn-hover-outline-mobile:hover i, 
     .no-touch .btn-hover-outline-mobile:hover span {
         @apply text-shadow-[0_-5rem_var(--text-light),0_0_var(--text-light)] 3xl:text-shadow-[0_-5rem_var(--text-light),0_0_var(--text-light)]
+    }
+
+    .no-touch .social__link:hover i {
+        @apply xl:text-shadow-[0_-4.4rem_var(--text-light),0_0_var(--text-light)] 2xl:text-shadow-[0_-5rem_var(--text-light),0_0_var(--text-light)]
     }
 
     .mobile-vertical:last-child {

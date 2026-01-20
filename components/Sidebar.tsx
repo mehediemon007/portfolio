@@ -17,7 +17,7 @@ const Sidebar = () => {
                     </div>
                     <div>
                         <small className="text-[1.3rem] 2xl:text-2xl text-gray-500 mb-[.4rem]">Specialization:</small>
-                        <h6>Frontend Developer</h6>
+                        <h6>React&Next Js Developer and Frontend Designer</h6>
                     </div>
                     <div>
                         <small className="text-[1.3rem] 2xl:text-2xl text-gray-500 mb-[.4rem]">Based in:</small>
