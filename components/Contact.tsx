@@ -13,7 +13,7 @@ const Contact = () => {
             <div className="content__wrapper grid-block block-large">
                 <div>
                     <form action="">
-                        <div className="grid grid-cols-2">
+                        <div className="grid grid-cols-1 md:grid-cols-2">
                             <div className="col-span-1 px-6 2xl:px-10 mb-12">
                                 <input type="text" placeholder='Your Name*'/>
                             </div>
@@ -86,7 +86,7 @@ const Contact = () => {
                     <div className="col-span-1 mb-[1.7rem] md:mb-0">
                         <p className="text-[1.6rem]/[1.2] font-bold font-sync text-gray-300">Location</p>
                         <p className="text-[1.6rem]/[1.4] font-normal font-sync text-(--text-muted) lining-nums">
-                            <a className="text-link-bold text-(--text-muted)" href="https://maps.app.goo.gl/xMJXTEUeHkv6kYRQ6" target="_blank" rel="noopener noreferrer">Dhaka, Bangladesh</a>
+                            Dhaka, Bangladesh
                         </p>
                     </div>
                     <div className="col-span-1 mb-[1.7rem] md:mb-0">

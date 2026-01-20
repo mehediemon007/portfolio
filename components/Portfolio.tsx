@@ -13,7 +13,7 @@ const Portfolio = () => {
                 <h2 className=''>Check out my featured projects</h2>
             </div>
             <div className='content__wrapper grid-block'>
-                <div className="grid grid-cols-2">
+                <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className='col-span-1'>
                         <figure className='relative grid-item'>
                             <Link href={'/'} className='relative block rounded-(--_radius-xl) overflow-hidden xl:scale-100 xl:transition-transform xl:duration-300 xl:ease-(--_animbezier) hover:xl:transform-[scale3d(1.03,1.03,1.03)]'>

@@ -17,7 +17,7 @@ const Hero = () => {
                         <span>My Works </span>
                         <i className="ph-bold ph-squares-four"></i>
                     </Link>
-                    <Link href={'#portfolio'} className='btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile'>
+                    <Link href={'/Mehedi-Hasan-Emon-Resume.pdf'} download className='btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile'>
                         <span>Download CV</span>
                         <i className="ph-bold ph-download-simple"></i>
                     </Link>

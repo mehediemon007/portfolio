@@ -39,7 +39,7 @@ const AboutMe = () => {
                         <p className='mb-6 2xl:mb-9'>I wonder if I&apos;ve been changed in the night? Let me think. Was I the same when I got up this morning? I almost think I can remember feeling a little different. But if I&apos;m not the same, the</p>
                         <p>Be what you would seem to be - or, if you&apos;d like it put more simply - never imagine yourself not to be otherwise than what it might appear to others that what you were or</p>
                         <div className='mt-10 2xl:mt-[3.1rem] 3xl:mt-[3.2rem]'>
-                            <Link href={'#portfolio'} className='btn mobile-vertical btn-default btn-hover btn-hover-accent'>
+                            <Link href={'/Mehedi-Hasan-Emon-Resume.pdf'} download className='btn mobile-vertical btn-default btn-hover btn-hover-accent'>
                                 <span>Download CV</span>
                                 <i className="ph-bold ph-download-simple"></i>
                             </Link>
@@ -53,19 +53,19 @@ const AboutMe = () => {
                         <div className='mb-[2.6rem] 2xl:mb-12 3xl:mb-[3.2rem]'>
                             <small className="text-[1.3rem] 2xl:text-2xl text-gray-500 mb-[.4rem]">Phone</small>
                             <h6>
-                                <a href="tel:+8801629795421" target="_blank" rel="noopener noreferrer" className='text-link-bold lining-nums'>+880-1629-795421</a>
+                                <a href="tel:+8801629795421" rel="noopener noreferrer" className='text-link-bold lining-nums'>+880-1629-795421</a>
                             </h6>
                         </div>
                         <div className='mb-[2.6rem] 2xl:mb-12 3xl:mb-[3.2rem]'>
                             <small className="text-[1.3rem] 2xl:text-2xl text-gray-500 mb-[.4rem]">Email</small>
                             <h6>
-                                <a href="mailto:mehediemon7@gmail.com" target="_blank" rel="noopener noreferrer" className='text-link-bold'>mehediemon7@gmail.com</a>
+                                <a href="mailto:mehediemon7@gmail.com" rel="noopener noreferrer" className='text-link-bold'>mehediemon7@gmail.com</a>
                             </h6>
                         </div>
                         <div className='mb-[2.6rem] 2xl:mb-12 3xl:mb-[3.2rem]'>
                             <small className="text-[1.3rem] 2xl:text-2xl text-gray-500 mb-[.4rem]">Location</small>
                             <h6>
-                                <a href="/google.com" target="_blank" rel="noopener noreferrer" className='text-link-bold'>Dhaka, Bangladesh</a>
+                                Dhaka, Bangladesh
                             </h6>
                         </div>
                     </div>
