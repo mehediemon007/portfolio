@@ -47,31 +47,31 @@ const Contact = () => {
                     <div className="col-span-1 grid-item-s">
                         <div className="socials-cards__card group">
                             <i className="ph-bold ph-linkedin-logo"></i>
-                            <a className="socials-cards__link" href="https://www.linkedin.com/in/mehedi-hasan-emon/" target="_blank" rel="noopener noreferrer"></a>
+                            <a className="socials-cards__link" href="https://www.linkedin.com/in/mehedi-hasan-emon/" target="_blank" rel="noopener noreferrer" aria-label='linkedin'></a>
                         </div>
                     </div>
                     <div className="col-span-1 grid-item-s">
                         <div className="socials-cards__card group">
                             <i className="ph-bold ph-facebook-logo"></i>
-                            <a className="socials-cards__link" href="https://www.facebook.com/mehedi.emon.007" target="_blank" rel="noopener noreferrer"></a>
+                            <a className="socials-cards__link" href="https://www.facebook.com/mehedi.emon.007" target="_blank" rel="noopener noreferrer" aria-label='facebook'></a>
                         </div>
                     </div>
                     <div className="col-span-1 grid-item-s">
                         <div className="socials-cards__card group">
                             <i className="ph-bold ph-whatsapp-logo"></i>
-                            <a className="socials-cards__link" href="https://wa.me/+8801629795421" target="_blank" rel="noopener noreferrer"></a>
+                            <a className="socials-cards__link" href="https://wa.me/+8801629795421" target="_blank" rel="noopener noreferrer" aria-label='whatsapp'></a>
                         </div>
                     </div>
                     <div className="col-span-1 grid-item-s">
                         <div className="socials-cards__card group">
                             <i className="ph-bold ph-messenger-logo"></i>
-                            <a className="socials-cards__link" href="https://m.me/mehedi.emon.007" target="_blank" rel="noopener noreferrer"></a>
+                            <a className="socials-cards__link" href="https://m.me/mehedi.emon.007" target="_blank" rel="noopener noreferrer" aria-label='messanger'></a>
                         </div>
                     </div>
                     <div className="col-span-1 grid-item-s">
                         <div className="socials-cards__card group">
                             <i className="ph-bold ph-discord-logo"></i>
-                            <a className="socials-cards__link" href="https://discord.com/users/1289504649795342389" target="_blank" rel="noopener noreferrer"></a>
+                            <a className="socials-cards__link" href="https://discord.com/users/1289504649795342389" target="_blank" rel="noopener noreferrer" aria-label='discord'></a>
                         </div>
                     </div>
                 </div>

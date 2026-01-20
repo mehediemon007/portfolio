@@ -24,11 +24,11 @@ const Sidebar = () => {
                         <h6>Dhaka, Bangladesh</h6>
                     </div>
                     <div className='flex justify-between items-center'>
-                        <a href="https://www.linkedin.com/in/mehedi-hasan-emon/" target="_blank" rel="noopener noreferrer" className='social__link btn'><i className="ph-bold ph-linkedin-logo"></i></a>
-                        <a href="https://www.facebook.com/mehedi.emon.007" target="_blank" rel="noopener noreferrer" className='social__link btn'><i className="ph-bold ph-facebook-logo"></i></a>
-                        <a href="https://wa.me/+8801629795421" target="_blank" rel="noopener noreferrer" className='social__link btn'><i className="ph-bold ph-whatsapp-logo"></i></a>
-                        <a href="https://m.me/mehedi.emon.007" target="_blank" rel="noopener noreferrer" className='social__link btn'><i className="ph-bold ph-messenger-logo"></i></a>
-                        <a href="mailto:mehediemon7@gmail.com" rel="noopener noreferrer" className='social__link btn'><i className="ph-bold ph-discord-logo"></i></a>
+                        <a href="https://www.linkedin.com/in/mehedi-hasan-emon/" target="_blank" rel="noopener noreferrer" aria-label='linkedin' className='social__link btn'><i className="ph-bold ph-linkedin-logo"></i></a>
+                        <a href="https://www.facebook.com/mehedi.emon.007" target="_blank" rel="noopener noreferrer" aria-label='facebook' className='social__link btn'><i className="ph-bold ph-facebook-logo"></i></a>
+                        <a href="https://wa.me/+8801629795421" target="_blank" rel="noopener noreferrer" aria-label='whatsapp' className='social__link btn'><i className="ph-bold ph-whatsapp-logo"></i></a>
+                        <a href="https://m.me/mehedi.emon.007" target="_blank" rel="noopener noreferrer" aria-label='messanger' className='social__link btn'><i className="ph-bold ph-messenger-logo"></i></a>
+                        <a href="mailto:mehediemon7@gmail.com" rel="noopener noreferrer" aria-label='gmail' className='social__link btn'><i className="ph-bold ph-discord-logo"></i></a>
                     </div>
                     <Link href='#contact' className='btn btn-default btn-hover btn-hover-accent'>
                         <span>Let&apos;s Work Together!</span>

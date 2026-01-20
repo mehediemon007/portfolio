@@ -36,6 +36,7 @@
     --color-gray-300: var(--text-light);
     --color-gray-500: var(--text-medium);
     --color-gray-600: var(--text-disable);
+    --color-violate: #7059e2;
     --color-stroke-neutral: var(--stroke-controls-neutral);
     --color-stroke-controls: var(--stroke-controls);
     --color-stroke: var(--stroke-elements);
@@ -258,7 +259,7 @@
     }
 
     .rounded-tag {
-        @apply inline-flex items-center h-[3.4rem] text-[1.5rem]/[1] font-normal font-sync lining-nums rounded-(--_radius-s) px-[1.4rem] my-2 mr-4
+        @apply inline-flex items-center h-[3.4rem] text-[1.5rem]/[1] font-normal font-sync lining-nums rounded-(--_radius-s) px-[1.4rem] my-3 mr-4
     }
 
     /* Resume Section */
