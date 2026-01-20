@@ -19,38 +19,56 @@ const Resume = () => {
                 <div className='resume-lines'>
                     <div className="grid grid-cols-1 md:grid-cols-12 resume-lines__item">
                         <div className="col-span-1 md:col-span-2">
-                            <span className='resume-lines__date'>2018 - 2019</span>
+                            <span className='resume-lines__date'>Feb 2025 - Dec 2025</span>
                         </div>
                         <div className="col-span-1 md:col-span-5">
-                            <h5 className='resume-lines__title'>Illustrator</h5>
-                            <p className='resume-lines__source'>in the <a href='/ss' target='_blanl' className='text-link-bold'>Creative Mind</a> agency</p>
+                            <h5 className='resume-lines__title'>Lead Frontend Developer</h5>
+                            <p className='resume-lines__source'>in the <a href='https://atctbd.com/' target='_blank' className='text-link-bold'>ATCT BD.</a></p>
                         </div>
                         <div className="col-span-1 md:col-span-5">
-                            <p className='small resume-lines__descr'>I created original images for a range of digital and printed products.</p>
+                            <p className='small resume-lines__descr'>
+                                Responsible for designing, developing, and optimizing a full-scale multi-vendor eCommerce platform, delivering end-to-end buyer experiences and a robust, role-based merchant management system. Led implementation of online and offline sales workflows, including a POS system with real-time inventory synchronization. Integrated and maintained scalable REST APIs with strong validation and error handling. Drove performance optimization using Next.js and advanced React patterns, achieving excellent Lighthouse and Core Web Vitals scores while ensuring high performance and usability under heavy data loads.
+                            </p>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-12 resume-lines__item">
                         <div className="col-span-1 md:col-span-2">
-                            <span className='resume-lines__date'>2019 - 2021</span>
+                            <span className='resume-lines__date'>Sep 2022 - Nov 2024</span>
                         </div>
                         <div className="col-span-1 md:col-span-5">
-                            <h5 className='resume-lines__title'>Graphic Designer</h5>
-                            <p className='resume-lines__source'>in the <a href='/ss' target='_blanl' className='text-link-bold'>Moon Light</a> agency</p>
+                            <h5 className='resume-lines__title'>Frontend Developer<span className='resume-lines__source'> (Project Based)</span></h5>
+                            <p className='resume-lines__source'>in the <a href='https://www.onixlab.io/' target='_blank' className='text-link-bold'>Onixlab Studio Ltd.</a></p>
                         </div>
                         <div className="col-span-1 md:col-span-5">
-                            <p className='small resume-lines__descr'>My job was to create adverts, branding, signage and other media products.</p>
+                            <p className='small resume-lines__descr'>
+                                Developed and modernized responsive websites for 10+ clients using semantic HTML5, CSS, JavaScript, and Next.js, improving performance, interactivity, and SEO. Successfully migrated legacy sites to modern frameworks, achieving measurable gains in Lighthouse scores and Core Web Vitals while keeping platforms up to date with current web technologies like Tailwind CSS.
+                            </p>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-12 resume-lines__item">
                         <div className="col-span-1 md:col-span-2">
-                            <span className='resume-lines__date'>2021 - now</span>
+                            <span className='resume-lines__date'>Nov 2021 - May 2023</span>
                         </div>
                         <div className="col-span-1 md:col-span-5">
-                            <h5 className='resume-lines__title'>UI/UX Designer</h5>
-                            <p className='resume-lines__source'>in the <a href='/ss' target='_blanl' className='text-link-bold'>Moon Light</a> agency</p>
+                            <h5 className='resume-lines__title'>Frontend Developer</h5>
+                            <p className='resume-lines__source'>in the <a href='https://akaarit.com/' target='_blank' className='text-link-bold'>Akaar IT Ltd.</a></p>
                         </div>
                         <div className="col-span-1 md:col-span-5">
-                            <p className='small resume-lines__descr'>I am actively involved in creating user interfaces for mobile apps and websites.</p>
+                            <p className='small resume-lines__descr'>
+                                Redesigned and enhanced company websites and POS software, including dashboard visualizations with Chart.js, analytics cards, business report tables, and a restaurant reservation feature. Developed and maintained front-end solutions for 10+ e-commerce platforms using semantic HTML, Next.js, and React.js, implementing inline text editing, REST API integrations, and optimized coding structures. Collaborated closely with back-end teams to build and improve UI for ERP and CRM systems, achieving improved performance and higher Google Lighthouse scores.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-12 resume-lines__item">
+                        <div className="col-span-1 md:col-span-2">
+                            <span className='resume-lines__date'>May 2021 - Oct 2021</span>
+                        </div>
+                        <div className="col-span-1 md:col-span-5">
+                            <h5 className='resume-lines__title'>Frontend Designer</h5>
+                            <p className='resume-lines__source'>in the <a href='https://thecodude.com/' target='_blank' className='text-link-bold'>Thecodude</a> team</p>
+                        </div>
+                        <div className="col-span-1 md:col-span-5">
+                            <p className='small resume-lines__descr'>Converted UI designs into pixel-perfect, fully responsive websites for <a href="https://themeforest.net/item/rasin-business-consulting-html-template/34052070?s_rank=6" target='_blank'>Themeforest</a> marketplace.</p>
                         </div>
                     </div>
                 </div>

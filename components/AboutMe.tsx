@@ -15,7 +15,7 @@ const AboutMe = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3">
                     <div className="col-span-1 grid-item">
                         <div className='h-full text-center bg-background border border-stroke rounded-(--_radius-xl) p-12'>
-                            <p className='text-8xl xl:text-[7rem]/[1] 3xl:text-9xl font-bold font-sync text-transparent -tracking-[.2rem] lining-nums bg-linear-accent [-webkit-text-fill-color:transparent] bg-clip-text'>40+</p>
+                            <p className='text-8xl xl:text-[7rem]/[1] 3xl:text-9xl font-bold font-sync text-transparent -tracking-[.2rem] lining-nums bg-linear-accent [-webkit-text-fill-color:transparent] bg-clip-text'>15+</p>
                             <p className='text-[1.6rem]/[1.2] xl:text-[1.8rem]/[1.2] 3xl:text-[2rem]/[1.2] text-gray-300 font-bold font-sync mt-[.6rem]'>Happy clients</p>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const AboutMe = () => {
                     </div>
                     <div className="col-span-1 grid-item">
                         <div className='h-full text-center bg-background border border-stroke rounded-(--_radius-xl) p-12'>
-                            <p className='text-8xl xl:text-[7rem]/[1] 3xl:text-9xl font-bold font-sync text-transparent -tracking-[.2rem] lining-nums bg-linear-accent [-webkit-text-fill-color:transparent] bg-clip-text'>50+</p>
+                            <p className='text-8xl xl:text-[7rem]/[1] 3xl:text-9xl font-bold font-sync text-transparent -tracking-[.2rem] lining-nums bg-linear-accent [-webkit-text-fill-color:transparent] bg-clip-text'>40+</p>
                             <p className='text-[1.6rem]/[1.2] xl:text-[1.8rem]/[1.2] 3xl:text-[2rem]/[1.2] text-gray-300 font-bold font-sync mt-[.6rem]'>Projects done</p>
                         </div>
                     </div>
