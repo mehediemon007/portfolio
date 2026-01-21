@@ -23,7 +23,7 @@ const Resume = () => {
                         </div>
                         <div className="col-span-1 md:col-span-5">
                             <h5 className='resume-lines__title'>Lead Frontend Developer</h5>
-                            <p className='resume-lines__source'>in the <a href='https://atctbd.com/' target='_blank' className='text-link-bold'>ATCT BD.</a></p>
+                            <p className='resume-lines__source'>in the <a href='https://atctbd.com/' target='_blank' className='text-link-bold'>ATCT BD.</a> (sister concern of QRBD)</p>
                         </div>
                         <div className="col-span-1 md:col-span-5">
                             <p className='small resume-lines__descr'>
