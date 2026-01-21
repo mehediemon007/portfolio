@@ -53,7 +53,7 @@ const Contact = () => {
                     <div className="col-span-1 grid-item-s">
                         <div className="socials-cards__card group">
                             <i className="ph-bold ph-facebook-logo"></i>
-                            <a className="socials-cards__link" href="https://www.facebook.com/mehedi.emon.007" target="_blank" rel="noopener noreferrer" aria-label='facebook'></a>
+                            <a className="socials-cards__link" href="https://www.facebook.com/hasanemon0007" target="_blank" rel="noopener noreferrer" aria-label='facebook'></a>
                         </div>
                     </div>
                     <div className="col-span-1 grid-item-s">
@@ -65,7 +65,7 @@ const Contact = () => {
                     <div className="col-span-1 grid-item-s">
                         <div className="socials-cards__card group">
                             <i className="ph-bold ph-messenger-logo"></i>
-                            <a className="socials-cards__link" href="https://m.me/mehedi.emon.007" target="_blank" rel="noopener noreferrer" aria-label='messanger'></a>
+                            <a className="socials-cards__link" href="https://m.me/hasanemon0007" target="_blank" rel="noopener noreferrer" aria-label='messanger'></a>
                         </div>
                     </div>
                     <div className="col-span-1 grid-item-s">
